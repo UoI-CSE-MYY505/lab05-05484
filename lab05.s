@@ -11,7 +11,7 @@ storage:
 
 .text
 # ----------------------------------------------------------------------------------------
-# prepare register values.
+# prepare register values
 # ----------------------------------------------------------------------------------------
 #  la breaks into 2 instructions, which have a data dependence. Ignore this 
     la   a0, storage
